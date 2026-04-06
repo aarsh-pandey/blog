@@ -6,8 +6,8 @@ author:
   github: "aarsh-code"
   linkedin: "aarshpandey"
 
-url: ""
-baseurl: ""
+url: "https://aarsh-pandey.github.io"
+baseurl: "/blog"
 
 permalink: /posts/:slug/
 
