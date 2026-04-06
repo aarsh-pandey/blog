@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" font-family="Inter, system-ui, sans-serif">
+  <style>
+    .box { rx: 8; ry: 8; }
+    .label { font-size: 13px; font-weight: 600; fill: #f5f5f4; }
+    .sub { font-size: 11px; fill: #a8a29e; }
+    .arrow { stroke: #57534e; stroke-width: 1.5; fill: none; marker-end: url(#arrowhead); }
+    .step-label { font-size: 11px; fill: #78716c; font-weight: 500; letter-spacing: 0.05em; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#57534e"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="760" height="180" fill="#1c1917" rx="12"/>
+
+  <!-- Title -->
+  <text x="380" y="28" text-anchor="middle" font-size="12" font-weight="600" fill="#78716c" letter-spacing="0.08em">INDEXING PIPELINE</text>
+
+  <!-- Step 1: Documents -->
+  <rect x="30" y="55" width="130" height="80" fill="#292524" stroke="#44403c" stroke-width="1" rx="8"/>
+  <text x="95" y="88" text-anchor="middle" class="label">Documents</text>
+  <text x="95" y="106" text-anchor="middle" class="sub">PDFs, Markdown,</text>
+  <text x="95" y="120" text-anchor="middle" class="sub">HTML, text files</text>
+
+  <!-- Arrow -->
+  <line x1="162" y1="95" x2="190" y2="95" class="arrow"/>
+
+  <!-- Step 2: Chunking -->
+  <rect x="192" y="55" width="130" height="80" fill="#292524" stroke="#44403c" stroke-width="1" rx="8"/>
+  <text x="257" y="88" text-anchor="middle" class="label">Chunking</text>
+  <text x="257" y="106" text-anchor="middle" class="sub">Split into 200–500</text>
+  <text x="257" y="120" text-anchor="middle" class="sub">token segments</text>
+
+  <!-- Arrow -->
+  <line x1="324" y1="95" x2="352" y2="95" class="arrow"/>
+
+  <!-- Step 3: Embedding -->
+  <rect x="354" y="55" width="130" height="80" fill="#292524" stroke="#44403c" stroke-width="1" rx="8"/>
+  <text x="419" y="88" text-anchor="middle" class="label">Embedding</text>
+  <text x="419" y="106" text-anchor="middle" class="sub">Convert text to</text>
+  <text x="419" y="120" text-anchor="middle" class="sub">dense vectors</text>
+
+  <!-- Arrow -->
+  <line x1="486" y1="95" x2="514" y2="95" class="arrow"/>
+
+  <!-- Step 4: Vector DB -->
+  <rect x="516" y="55" width="130" height="80" fill="#292524" stroke="#7c3aed" stroke-width="1.5" rx="8"/>
+  <text x="581" y="88" text-anchor="middle" class="label">Vector DB</text>
+  <text x="581" y="106" text-anchor="middle" class="sub">Store &amp; index</text>
+  <text x="581" y="120" text-anchor="middle" class="sub">all vectors</text>
+
+  <!-- Done label -->
+  <text x="693" y="91" text-anchor="middle" font-size="22" fill="#7c3aed">✓</text>
+  <text x="693" y="108" text-anchor="middle" class="step-label">READY</text>
+
+  <!-- Step numbers -->
+  <text x="95" y="152" text-anchor="middle" class="step-label">① SOURCE</text>
+  <text x="257" y="152" text-anchor="middle" class="step-label">② SPLIT</text>
+  <text x="419" y="152" text-anchor="middle" class="step-label">③ EMBED</text>
+  <text x="581" y="152" text-anchor="middle" class="step-label">④ STORE</text>
+</svg>

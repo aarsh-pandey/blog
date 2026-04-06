@@ -464,6 +464,13 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 2.5rem 0;
 }
 
+.post-body img {
+  display: block;
+  max-width: 100%;
+  border-radius: var(--radius);
+  margin: 2rem 0;
+}
+
 /* Code — inline */
 .post-body code {
   font-family: var(--font-mono);

@@ -3,6 +3,7 @@ layout: post
 title: "The Art of Building in Public"
 subtitle: "Why sharing your work—even when it's unfinished—is more valuable than waiting for perfection."
 tags: [thinking, craft]
+archived: true
 ---
 
 There's a temptation when building anything to wait until it's *done* before showing it. To polish every edge, handle every edge case, and only then let people in.

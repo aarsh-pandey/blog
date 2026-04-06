@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-<div class="about-page container">
+<div class="about-page container" markdown="1">
   <h1>About</h1>
 
 Hey, I'm **Aarsh** — a developer who writes about the things I find interesting: software, systems, design, and the occasional philosophical rabbit hole.

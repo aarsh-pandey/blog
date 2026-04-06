@@ -3,6 +3,7 @@ layout: post
 title: "Understanding Go Interfaces from First Principles"
 subtitle: "Interfaces in Go aren't what you think they are — and that's what makes them powerful."
 tags: [go, programming]
+archived: true
 ---
 
 Most explanations of Go interfaces start with the syntax. This one won't.
