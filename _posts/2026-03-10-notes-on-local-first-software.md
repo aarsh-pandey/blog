@@ -3,6 +3,7 @@ layout: post
 title: "Notes on Local-First Software"
 subtitle: "What if your apps worked like your files — always available, always yours?"
 tags: [software, design]
+archived: true
 ---
 
 The cloud made software better in a lot of ways. Sync across devices. Collaboration. No data loss when your laptop dies.
