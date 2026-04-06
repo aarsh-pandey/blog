@@ -185,7 +185,7 @@ img { max-width: 100%; height: auto; display: block; }
    HOME PAGE — HERO
    ================================================================ */
 .hero {
-  padding: 5rem 0 4rem;
+  padding: 3rem 0 2rem;
   border-bottom: 1px solid var(--border);
 }
 
@@ -235,7 +235,7 @@ img { max-width: 100%; height: auto; display: block; }
    POST LIST
    ================================================================ */
 .post-list-section {
-  padding: 3.5rem 0;
+  padding: 2rem 0;
 }
 
 .section-label {
