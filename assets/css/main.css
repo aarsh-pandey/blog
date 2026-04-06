@@ -149,7 +149,7 @@ img { max-width: 100%; height: auto; display: block; }
 .site-nav .rss-link {
   display: flex;
   align-items: center;
-  opacity: 0.5;
+  opacity: 0.75;
   transition: opacity 0.2s;
 }
 
