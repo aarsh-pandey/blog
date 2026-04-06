@@ -509,6 +509,11 @@ img { max-width: 100%; height: auto; display: block; }
 /* ================================================================
    POST FOOTER / NAV
    ================================================================ */
+.post-comments {
+  padding: 3rem 0 1rem;
+  border-top: 1px solid var(--border);
+}
+
 .post-footer {
   padding: 2.5rem 0 4rem;
   border-top: 1px solid var(--border);
