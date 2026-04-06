@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">Personal Blog</div>
+    <h1 class="hero-title">Writing about things<br>that <em>matter</em>.</h1>
+    <p class="hero-bio">{{ site.description }}</p>
+  </div>
+</section>
+
+<section class="post-list-section">
+  <div class="container">
+    <p class="section-label">// all posts</p>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li class="post-item">
+        <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+        <div class="post-item-body">
+          {% if post.tags and post.tags.size > 0 %}
+          <div class="post-item-tags">
+            {% for tag in post.tags limit:2 %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+          <a class="post-item-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% if post.excerpt %}
+          <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

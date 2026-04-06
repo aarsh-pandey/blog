@@ -1,0 +1,32 @@
+title: "Aarsh's Blog"
+description: "Thoughts on code, design, and everything in between."
+author:
+  name: Aarsh
+  bio: "Developer. Builder. Thinker."
+  github: "aarsh-code"
+  linkedin: "aarshpandey"
+
+url: ""
+baseurl: ""
+
+permalink: /posts/:slug/
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
